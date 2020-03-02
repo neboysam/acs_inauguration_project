@@ -11,7 +11,6 @@ let students = [
     imgPro: "images/pro/anthony-pro.png",
     imgFun: "images/fantasy/anthony-fantasy.png"
   },
-
   {
     name: "Béatrice Hatsch",
     age: 53,
@@ -24,7 +23,6 @@ let students = [
     imgPro: "images/pro/beatrice-pro.png",
     imgFun: "images/fantasy/beatrice-fantasy.png"
   },
-
   {
     name: "Etienne Schmitt",
     age: 22,
@@ -268,7 +266,6 @@ const carouselCardsDownContent = `
   <img class="card-img-top" src="${result.img}" alt="Card image cap">
 </div>
     `;
-
   // Append newly created card element to the container
   horizontal.innerHTML += carouselCardsDownContent;
 });
